@@ -1,0 +1,11 @@
+{
+  "name": "proyecto-1-chatbot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix chatterbot-nextjs run dev",
+    "build": "npm --prefix chatterbot-nextjs run build",
+    "start": "npm --prefix chatterbot-nextjs run start",
+    "lint": "npm --prefix chatterbot-nextjs run lint"
+  }
+}

@@ -1,0 +1,26 @@
+# Dependencias
+node_modules/
+chatterbot-nextjs/node_modules/
+
+# Next.js build
+.next/
+chatterbot-nextjs/.next/
+out/
+build/
+dist/
+
+# Variables de entorno y credenciales sensibles (NUNCA SUBIR)
+.env*
+!.env.example
+chatterbot-nextjs/.env*
+!chatterbot-nextjs/.env.example
+
+# Logs y depuración
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
